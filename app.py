@@ -3,9 +3,9 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
 
-# Connection string with ODBC Driver 18
+# Connection string with ODBC Driver 17
 connection_string = (
-    "Driver={ODBC Driver 18 for SQL Server};"
+    "Driver={ODBC Driver 17 for SQL Server};"
     "Server=tcp:sqldatabse.database.windows.net,1433;"
     "Database=Sqldatabse;"
     "Uid=sqladmin;"
